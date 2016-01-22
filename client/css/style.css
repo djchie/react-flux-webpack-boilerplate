@@ -1,0 +1,219 @@
+body {
+  background-color: #231e1e;
+  padding: 10px;
+}
+
+/****** Search Input ******/
+.search-input-container {
+  margin: 0 5px;
+}
+.search-icon {
+  background-color: #3d4552;
+  height: 17px;
+  left: 28px;
+  position: absolute;
+  top: 28px;
+  width: 17px;
+}
+.search-input {
+  background-color: #3d4552;
+  border-color: #cccccc;
+  color: #a8a8a8;
+  margin-top: 10px;
+  padding-left: 45px;
+}
+
+/****** Theater Cell ******/
+.theater-cell {
+  background-color: #c2053b;
+  color: #ecd9d7;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.back-icon-container {
+  padding: 0;
+  text-align: center;
+}
+.back-icon {
+  height: 20px;
+  margin-top: 6px;
+  width: 20px;
+}
+.theater-info {
+  margin-left: 15px;
+}
+.theater-name {
+  text-shadow: 0 2px 5px #000000;
+}
+.theater-address {
+  font-size: xx-small;
+}
+
+/****** Date Cell ******/
+.date-cell {
+  color: #a8a8a8;
+  font-size: large;
+  padding: 7px 0;
+}
+.date {
+  text-align: right;
+}
+
+/****** Movie Cell ******/
+.movie-cell {
+  color: #a8a8a8;
+  padding: 10px;
+}
+.dark-cell {
+  background-color: #20252b;
+}
+.light-cell {
+  background-color: #464d5d;
+}
+.heart-icon-container {
+  margin-top: 10px;
+  padding: 0px;
+  text-align: center;
+}
+.heart-icon {
+  height: 20px;
+  width: 20px;
+}
+.movie-info {
+  padding-left: 27px;
+}
+.movie-title {
+  font-size: 15px;
+  font-weight: bold;
+}
+.movie-rated {
+  border: 1px solid black;
+  font-size: 10px;
+  margin-left: 5px;
+  padding: 1px;
+}
+.showtimes {
+  color: #747474;
+}
+.arrow-icon-container {
+  margin-top: 10px;
+  padding: 0px;
+  text-align: center;
+}
+.arrow-icon {
+  height: 15px;
+  width: 15px;
+}
+/* To create spacing for footer */
+.clear { 
+  clear: both; 
+  height: 56px; 
+}
+
+/****** Footer ******/
+.footer {
+  background-color: #1d1e20;
+  bottom: 10px;
+  color: #a8a8a8;
+  left: 0;
+  padding: 5px 10px;
+  position: fixed;
+  width: 100%;
+}
+.sort-button {
+  background-color: #181b20;
+  font-size: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.triangle {
+  color: #c2053b;
+  font-size: 8px;
+  position: absolute;
+  right: 15px;
+  text-align: right;
+}
+.share {
+  font-size: 11px;
+  margin-top: 10px;
+  text-align: right;
+}
+.share-icon {
+  height: 20px;
+  margin-left: 20px;
+  width: 20px;
+}
+
+/****** Movie Detail ******/
+.detail-wrapper {
+  background-color: rgba(6, 7, 11, 0.9);
+  color: #a8a8a8;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  position: absolute;
+}
+.poster-background {
+  height: 100%;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.close-button-row {
+  height: 30px;
+}
+.close-button {
+  color: #747474;
+  position: absolute;
+  right: 10px;
+  width: 80px;
+}
+.close-icon {
+  height: 10px;
+  margin-left: 7px;
+  width: 10px;
+}
+.title {
+  font-size: 20px;
+  margin-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.detail {
+  font-size: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.rated-container {
+  font-size: 9px;
+}
+.rated {
+  border: 1px solid #a8a8a8;
+  font-size: 11px;
+  margin-left: 5px;
+}
+.poster {
+  border: 1px solid #3d4552;
+  float: right;
+  height: 200px;
+  margin: -23px 0 10px 10px;
+  width: 150px;
+}
+.action-container {
+  bottom: 20px;
+  margin: 0 auto;
+  padding-right: 40px;
+  position: absolute;
+  width: 100%;
+}
+.button {
+  background-color: #181b20;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 8px 20px 10px;
+  text-align: center;
+}
